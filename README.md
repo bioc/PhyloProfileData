@@ -1,2 +1,3 @@
 # PhyloProfileData
-The PhyloProfileData package provides a collection of datasets to accompany the PhyloProfile package
+Two experimental datasets to illustrate running and analysing phylogenetic 
+profiles with PhyloProfile package.

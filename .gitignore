@@ -1,0 +1,29 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+*.Rproj
+*.rproj
+*.Rproj.user/
+*.rproj.user
+*.Rproj.user
+*.rprofile
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*.R
+
+# DS_Store
+**/.DS_Store
+data/.DS_Store
+
+.renviron
+.Rproj.user
