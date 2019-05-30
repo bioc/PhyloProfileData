@@ -35,9 +35,6 @@ myData <- query(eh, "PhyloProfileData")
 myData
 ```
 
-Each data set contains three files corresponding for the phylogenetic profiles,
-the FASTA sequences and the protein domain annotations.
-
 ```
 ExperimentHub with 6 records
 # snapshotDate(): 2019-05-29 
@@ -58,7 +55,10 @@ ExperimentHub with 6 records
   EH2549 | Domain annotations for proteins in the phylogenetic profiles of BUSCO arthr...
 ```
 
-A particular data object can be retrieve using its ID, for example
+
+Each data set contains three files (objects) corresponding for the phylogenetic 
+profiles, the FASTA sequences and the protein domain annotations. A particular 
+data object can be retrieve using its ID, for example:
 
 ```r
 # Retrieve FASTA sequences for proteins in the phylogenetic profiles of the 
@@ -67,7 +67,7 @@ ampkTorFasta <- myData[["EH2545"]]
 ```
 
 For a detailed description of each data set and the belonging data objects 
-please see the vignette PhyloProfileData
+please see the vignette PhyloProfileData.
 
 ```r
 library(PhyloProfileData)
