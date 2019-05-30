@@ -1,0 +1,20 @@
+Package: PhyloProfileData
+Type: Package
+Version: 0.99.0
+Date: 2019-05-30
+Title: Data package for phylogenetic profile analysis using PhyloProfile tool
+Author: Ingo Ebersberger, Arpit Jain, Hannah Mülbaier, Vinh Tran
+Maintainer: Vinh Tran <tran@bio.uni-frankfurt.de>
+Description: Two experimental datasets to illustrate running and analysing phylogenetic profiles with PhyloProfile package.
+URL: https://github.com/BIONF/PhyloProfileData
+BugReports: https://github.com/trvinh/PhyloProfileData/issues
+License: MIT + file LICENSE
+Depends: R (>= 3.6.0)
+Encoding: UTF-8
+biocViews: ExperimentData, ReproducibleResearch, ExperimentHub
+Imports: ExperimentHub, Biostrings
+Suggests: knitr
+VignetteBuilder: knitr
+LazyData: false
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
