@@ -1,10 +1,15 @@
 # PhyloProfileData
 [![license: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-To illustrate running and analysing phylogenetic profiles with [PhyloProfile pakage](https://github.com/BIONF/PhyloProfile) ([Tran et al. 2018](https://doi.org/10.1093/bioinformatics/bty225)), we provide in this 
-PhyloProfileData package two experimental phylogenetic profile data sets of (1) 
-147 human proteins in the AMPK-TOR pathway across 83 species and (2) 1011 BUSCO
-arthropoda ortholog groups across 88 species in the three domains of life. 
+The PhyloProfileData package provides a collection of datasets to accompany the 
+R package [PhyloProfile pakage](https://github.com/BIONF/PhyloProfile) 
+([Tran et al. 2018](https://doi.org/10.1093/bioinformatics/bty225)), where they 
+are used to illustrate how to run PhyloProfile and analyse its results. Briefly,
+it contains the phylogenetic profiles, the fasta sequences and the domain 
+annotations for two experimental data sets, including
+1. 147 human proteins in the AMPK-TOR pathway across 83 species, and
+2. 1011 BUSCO arthropoda ortholog groups across 88 species in the three domains 
+of life.
 
 # Installation
 
