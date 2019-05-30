@@ -56,6 +56,14 @@ ExperimentHub with 6 records
   EH2549 | Domain annotations for proteins in the phylogenetic profiles of BUSCO arthr...
 ```
 
+A particular data object can be retrieve using its ID, for example
+
+```r
+# Retrieve FASTA sequences for proteins in the phylogenetic profiles of the 
+# human AMPK-TOR pathway
+ampkTorFasta <- myData[["EH2545"]]
+```
+
 For a detailed description of each data set and the belonging data objects 
 please see the vignette PhyloProfileData
 
