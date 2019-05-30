@@ -27,9 +27,11 @@ of [Bioconductor](http://bioconductor.org) and can be accessed using the
 following R commands:
 
 ```r
+# Load the data of the PhyloProfileData package
 library(ExperimentHub)
 eh = ExperimentHub()
 myData <- query(eh, "PhyloProfileData")
+# View the metadata of this data package
 myData
 ```
 
