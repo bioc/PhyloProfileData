@@ -1,5 +1,8 @@
 # PhyloProfileData
+[![Bioconductor](https://img.shields.io/badge/available%20at-Bioconductor-orange)](https://bioconductor.org/packages/PhyloProfileData)
+<a href="http://bioconductor.org/checkResults/release/data-experiment-LATEST/PhyloProfileData/"><img border="0" src="http://www.bioconductor.org/shields/build/release/data-experiment/PhyloProfileData.svg" title="build results; click for full report"></a>.
 [![license: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+
 
 The PhyloProfileData package provides a collection of datasets to accompany the 
 R package [PhyloProfile pakage](https://github.com/BIONF/PhyloProfile) 
