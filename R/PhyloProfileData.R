@@ -12,4 +12,5 @@
 #' @name PhyloProfileData
 #' @import ExperimentHub
 #' @import Biostrings
+#' @import BiocStyle
 NULL
