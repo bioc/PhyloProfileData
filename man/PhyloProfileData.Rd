@@ -3,7 +3,6 @@
 \docType{package}
 \name{PhyloProfileData}
 \alias{PhyloProfileData}
-\alias{PhyloProfileData-package}
 \title{Data package for phylogenetic profile analysis using PhyloProfile tool}
 \description{
 The PhyloProfileData package provides a collection of datasets 
