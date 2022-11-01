@@ -1,6 +1,6 @@
 Package: PhyloProfileData
 Type: Package
-Version: 1.12.0
+Version: 1.13.0
 Date: 2019-06-29
 Title: Data package for phylogenetic profile analysis using PhyloProfile tool
 Authors@R: c(
