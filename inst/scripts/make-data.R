@@ -26,13 +26,16 @@ ampkTorPhyloProfile <- read.table(
 # Read AMPK-TOR domain annotations
 ampkTorDomains <- read.table(
     unz(temp, "ampk-tor.domains_F"),
-    header = FALSE,
+    header = TRUE,
     sep = "\t",
     quote = "",
     comment.char = "",
     stringsAsFactors = FALSE
 )
-colnames(ampkTorDomains) <- c("seedID", "orthoID", "feature", "start", "end")
+colnames(ampkTorDomains) <- c(
+    "seedID", "orthoID", "length", "feature", "start", "end","weight",
+    "path","acc","evalue","bitscore","pStart","pEnd","pLen"
+)
 
 # Read AMPK-TOR fasta sequences
 unzip(temp, files = "ampk-tor.extended.fa", exdir = tempDir, overwrite = TRUE)
@@ -69,16 +72,17 @@ arthropodaPhyloProfile <- read.table(
 )
 
 # Read Arthropoda domain annotations
-arthropodaDomain <- read.table(
+arthropodaDomains <- read.table(
     unz(temp, "arthropoda.domains"),
-    header = FALSE,
+    header = TRUE,
     sep = "\t",
     quote = "",
     comment.char = "",
     stringsAsFactors = FALSE
 )
-colnames(arthropodaDomain) <- c(
-    "seedID", "orthoID", "length", "feature", "start", "end", "weight", "path"
+colnames(arthropodaDomains) <- c(
+    "seedID", "orthoID", "length", "feature", "start", "end","weight",
+    "path","acc","evalue","bitscore","pStart","pEnd","pLen"
 )
 
 # Read Arthropoda fasta sequences
