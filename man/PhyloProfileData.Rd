@@ -2,6 +2,7 @@
 % Please edit documentation in R/PhyloProfileData.R
 \docType{package}
 \name{PhyloProfileData}
+\alias{PhyloProfileData-package}
 \alias{PhyloProfileData}
 \title{Data package for phylogenetic profile analysis using PhyloProfile tool}
 \description{
@@ -15,4 +16,27 @@ Arthropoda proteins.
 \details{
 More details of the datas can be found in the vignette 
 "PhyloProfileData" using browseVignettes("PhyloProfileData").
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/BIONF/PhyloProfileData}
+  \item Report bugs at \url{https://github.com/trvinh/PhyloProfileData/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Vinh Tran \email{tran@bio.uni-frankfurt.de} (\href{https://orcid.org/0000-0001-6772-7595}{ORCID})
+
+Authors:
+\itemize{
+  \item Ingo Ebersberger \email{ebersberger@bio.uni-frankfurt.de}
+}
+
+Other contributors:
+\itemize{
+  \item Hannah Mülbaier \email{hannah.muelbaier@gmail.com} [contributor]
+  \item Arpit Jain \email{arpitrb@gmail.com} [contributor]
+}
+
 }

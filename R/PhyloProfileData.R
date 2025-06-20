@@ -8,9 +8,8 @@
 #' Arthropoda proteins.
 #' @details More details of the datas can be found in the vignette 
 #' "PhyloProfileData" using browseVignettes("PhyloProfileData").
-#' @docType package
 #' @name PhyloProfileData
 #' @import ExperimentHub
 #' @import Biostrings
 #' @import BiocStyle
-NULL
+"_PACKAGE"

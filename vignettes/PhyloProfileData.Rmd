@@ -125,6 +125,15 @@ arthropodaDomain <- myData[["EH2549"]]
 head(arthropodaDomain)
 ```
 
+# SessionInfo()
+
+Here is the output of `sessionInfo()` on the system on which this document was
+compiles:
+
+```{r sessionInfo, echo = FALSE}
+sessionInfo(package = "PhyloProfile")
+```
+
 # References
 1. Armenteros, JJA. et al. (2019) SignalP 5.0 improves signal peptide 
 predictions using deep neural networks. Nature Biotechnology, 37, 420–423.
