@@ -24,13 +24,13 @@ ampkTorProfile <- data.frame(
             "https://doi.org/10.1093/jxb/erw211"
         ), 3
     ),
-    BiocVersion = rep("3.10", 3),
+    BiocVersion = rep("3.21", 3),
     Genome = rep(NA, 3),
     SourceType = rep("Zip", 3),
     SourceUrl = rep(
         "https://github.com/BIONF/phyloprofile-data/blob/master/ampk-tor.zip", 3
     ),
-    SourceVersion = rep("v1", 3),
+    SourceVersion = rep("v2", 3),
     Species = rep(NA, 3),
     TaxonomyId = rep(NA, 3),
     Coordinate_1_based = rep(NA, 3),
@@ -69,14 +69,14 @@ buscoArthropodaProfile <- data.frame(
             "and a protein annotation file."
         ), 3
     ),
-    BiocVersion = rep("3.10", 3),
+    BiocVersion = rep("3.21", 3),
     Genome = rep(NA, 3),
     SourceType = rep("Zip", 3),
     SourceUrl = rep(
         "https://github.com/BIONF/phyloprofile-data/blob/master/arthropoda.zip",
         3
     ),
-    SourceVersion = rep("v1", 3),
+    SourceVersion = rep("v2", 3),
     Species = rep(NA, 3),
     TaxonomyId = rep(NA, 3),
     Coordinate_1_based = rep(NA, 3),
