@@ -131,7 +131,7 @@ Here is the output of `sessionInfo()` on the system on which this document was
 compiles:
 
 ```{r sessionInfo, echo = FALSE}
-sessionInfo(package = "PhyloProfile")
+sessionInfo(package = "PhyloProfileData")
 ```
 
 # References
