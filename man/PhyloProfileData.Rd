@@ -26,10 +26,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Vinh Tran \email{tran@bio.uni-frankfurt.de} (\href{https://orcid.org/0000-0001-6772-7595}{ORCID})
+\strong{Maintainer}: Vinh Tran \email{v.tran@ub.uni-frankfurt.de} (\href{https://orcid.org/0000-0001-6772-7595}{ORCID})
 
 Authors:
 \itemize{
+  \item Vinh Tran \email{v.tran@ub.uni-frankfurt.de} (\href{https://orcid.org/0000-0001-6772-7595}{ORCID})
   \item Ingo Ebersberger \email{ebersberger@bio.uni-frankfurt.de}
 }
 
